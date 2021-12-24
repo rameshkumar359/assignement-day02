@@ -1,0 +1,125 @@
+day-02 Assignment
+
+Q.1)List 5 difference between Browser JS(console) v Nodejs
+
+                                 Java Script                                          Node.js
+1)Java Script is an programming language used in the browser to manipulate the DOM    1)runtime Environment of javascript outside the browser
+and CSSCOM
+
+2)it uses the respective  JS engines of browser like for chrome it is V8 engine       2)it uses the V8 engine of the chrome 
+and for firefox it is spidermonkey
+
+3)web application to have serverside with them and javascript used to create          3)it is used to develop Backend services applications
+content and request HTTP
+
+4)generally to create Network applications                                            4)it is used to create cross platform applications
+
+5)Not all javaSCript application are Node.js apps                                     5)All node.js applications are Javascript apps
+
+
+
+Q.2)summary of ryan seddon video of JSconf:
+
+1)every Web browser has an rendering machine and Js engine
+2)rendering machine contains HTML parser and CSSCOM parser html parser creates the DOM tree and css parser performs the CSSCOM tree
+3)every HTML program follow through an definite order of <body> to </body> then <elements> to <elements> and thier decleration
+4)CSS tree follows the same path of throught going through the selectors and decleration
+(eg) style.h1==> selector  { colour:"red"} ==>decleration
+5)java Sript engine manipulates both the html and css parser
+6)it is best to place script at the end of body for faster rendering 
+
+
+
+
+Q.3)code execution and thier description
+
+1)typeof(1)                        output:number
+
+Description:
+Numbers are primitive datatypes used to perform the logical operations,mathematical operations
+
+2)typeof(1.1)                      output:number
+
+Description:
+it is a type of float Number are primitive datatypes used to perform the logical operations,mathematical operations
+
+3)typeof('1.1')                    output:string
+
+Description:
+strings are primitive data type used in Javascript to store data and they used with the syntax of "...."
+(eg)- "strings"
+
+4)typeof(true)                    output:boolean
+
+Description:
+booleans are used to find wether the given condition is statisfied or not
+(eg) program to print wether the given number is odd or even 
+let number=9
+if(a%2==0)
+{
+console.log("even number")
+}else
+{
+console.log("odd number")
+}
+
+output:odd number
+
+5)typeof(null)                     output:object
+
+Description:
+Null is an type of object that is equal to null==undefined gives true
+
+6)typeof(undefined)                output:undefined
+
+Description:
+undefined is type comes while calling an variable that is declared without any assigning value and (undefined==null =>true)
+
+eg- let a
+    console.log(a)   output:undefined
+
+7)typeof([])                        output:object
+
+Description:
+the given data type is array but in javascript it is an part of object
+
+8)typeof({})                        output:object
+
+Description:
+objects are used in the form of key:value format to store information or data in javascript
+
+9)typeof(NaN)                       output:number
+
+Description: 
+NaN is defined as not an number it is given when an string and number are subtracted as it is not possible 
+(eg)-code
+let a=5
+let b="ram"
+c=a-b
+console.log(c)                       output:NaN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
